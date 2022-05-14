@@ -1,0 +1,256 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    display: flex;
+    width: 86.5rem;
+    height: 10rem;
+    padding: 2rem;
+    background-color: grey;
+}
+/*personalizacion de la maquetacion*/
+.circulo1{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(240, 235, 228);
+    border-radius: 100%;
+    margin:2rem;
+}
+
+.circulo2{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color:rgb(240, 235, 228);
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.circulo3{
+    display: flex;
+    flex-direction: row;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(240, 235, 228);
+    border-radius: 100%;
+    margin:2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    height: 5rem;
+    background-color: rgb(240, 235, 228);
+    margin: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 90.5rem;
+    height: 5rem;
+    background-color: rgb(41, 59, 85);
+}
+
+.ventana{
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+    height: 1rem;
+    padding: 1rem;
+    background-color: brown;
+    margin-left: 78rem;
+    margin-top: 1rem;
+    }
+
+    .icono{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        background-color: transparent;
+        margin: 1rem;
+    }
+
+    .selector{
+        display: flex;
+        flex-direction: row;
+        width: 82rem;
+        height: 105rem;
+        background-color: transparent;
+    }
+
+    .lado1izquierdo{
+        display: flex;
+        flex-direction: column;
+        width: 48rem;
+        height: 102rem;
+        background-color: transparent;
+        margin-top: 2rem;
+    }
+
+
+
+
+    .etiqueta2{
+        display: flex;
+        width: 48rem;
+        height: 30rem;
+        background-color: rgb(181, 179, 179);
+        margin-left: 1rem;
+    }
+
+    .ventanainterna1{
+        display: flex;
+        width: 36rem;
+        height: 3rem;
+        background-color: rgb(66, 69, 69);
+        margin-top: 24rem;
+        margin-left: 1rem;
+    }
+
+    .etiqueta3{
+        display: flex;
+        flex-direction: row;
+        width: 48rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .subventana{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background-color: rgb(181, 179, 179);
+        margin-left: 1rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+
+    .etiqueta4{
+        display: flex;
+        flex-direction: row;
+        width: 48rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .subventana2{
+        display: flex;
+        width: 22rem;
+        height: 13rem;
+        background-color: rgb(181, 179, 179);
+        margin-left: 1rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+
+    footer{
+        display: flex;
+        width: 48rem;
+        height: 30rem;
+        background-color: transparent;
+        margin-left: 1rem;
+        flex-direction: row;
+    }
+/*division*/
+    .etiqueta5{
+        display: flex;
+        width: 13rem;
+        height: 9rem;
+        background-color: rgb(181, 179, 179);
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+
+    .etiqueta6{
+        display: flex;
+        flex-direction: column;
+        width: 32.7rem;
+        height: 15rem;
+        background-color: transparent;
+        margin-top: 3rem;
+    }
+
+    .rectangulo1{
+        display: flex;
+        width: 32.7rem;
+        height: 2rem;
+        background-color: rgb(66, 69, 69);
+        margin-left: 2rem;
+    }
+
+    .rectangulo2{
+        display: flex;
+        width: 32.7rem;
+        height: 1rem;
+        background-color: rgb(124, 127, 127);
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .rectangulo3{
+        display: flex;
+        width: 4rem;
+        height: 1rem;
+        background-color: rgb(124, 127, 127);
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+     
+    .ladoderecho1{
+        display: flex;
+        flex-direction: column;
+        width: 40rem;
+        height: 93rem;
+        background-color: transparent;
+        margin-top: 0rem;
+    }
+
+    .agrupacion{
+        display: flex;
+        width: 38.5rem;
+        height: 100rem;
+        background-color: rgb(205, 207, 209);
+    flex-direction: column;
+    }
+
+    .organizador{
+        display: flex;
+        height: 3rem;
+        width: 15rem;
+        background-color: transparent;
+    }
+
+    .pestana2{
+        display: flex;
+        background-color:  rgb(181, 179, 179);
+        height: 8rem;
+        width: 15rem;
+        margin-bottom: 0rem;
+        margin-left: 13rem;
+        margin-top: 3rem;
+    }
+
+    .pestana3{
+        display: flex;
+        background-color: rgb(101, 98, 98);
+        width: 26.5rem;
+        margin-left: 1rem;
+        height: 25rem;
+        margin-top: 3rem;
+    }
+
+
+
